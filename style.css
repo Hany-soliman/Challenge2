@@ -74,7 +74,10 @@ button {
   margin: 16px auto 8px;
 }
 button:hover {
-  box-shadow: 1px 3px 10px transparent;
+  box-shadow: 1px 3px 10px white;
+  color: white;
+  background-color: black;
+  transition: 500ms;
 }
 footer {
   margin: 1rem;
@@ -106,10 +109,16 @@ ion-icon {
   color: white;
   text-decoration: none;
 }
-a:hover {
+ion-icon:hover {
   color: black;
+  background-color: white;
+  transition: 500ms;
 }
+.attribution a:hover {
+  color: black;
 
+  transition: 500ms;
+}
 .attribution {
   position: relative;
   top: 80px;
