@@ -29,7 +29,7 @@ h1 {
   height: auto;
   margin-top: 4.8px;
 }
-container {
+.container {
   padding: 16px;
 }
 header {
@@ -136,7 +136,7 @@ a:hover {
     display: flex;
     flex-direction: row;
   }
-  container {
+  .container {
     padding: 40px 57.6px;
   }
   .logo {
