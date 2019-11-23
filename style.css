@@ -63,6 +63,7 @@ button {
 	width: 50%;
 	font-size: 12.8px;
 	padding: 11.2px 28.8px;
+	border:none;
 	border-radius: 30px;
 	background-color: white;
 	color: hsl(257, 40%, 49%);
